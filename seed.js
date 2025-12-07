@@ -5,7 +5,7 @@
  * 1. Crear carpeta, correr `npm init -y`
  * 2. Instalar dependencias: `npm install mongodb @faker-js/faker`
  * 3. Asegurar que Docker con Mongo esté corriendo en el puerto 27017
- * 4. Ejecutar: `node seed.js`
+ * 4. Ejecutar: `node seed.js` 
  */
 
 const { MongoClient, ObjectId } = require('mongodb');

@@ -1,0 +1,35 @@
+Create a modern Apple Music Analytics Dashboard UI.
+
+The dashboard must contain 5 main sections corresponding to 5 business intelligence queries:
+
+1) Royalties Report (Last 30 Days)
+   - Bar chart showing total seconds played per artist.
+   - Subtitle: "Total streaming time per artist (seconds)."
+
+2) Top 10 Songs in Guatemala
+   - Table or bar chart of the 10 most played songs in the last 7 days.
+   - Columns: Position, Song Title, Artist, Streams.
+
+3) Zombie Users (Premium Users without Activity)
+   - Table listing premium users with no activity in the last 30 days.
+   - Columns: Username, Email, Country, Subscription.
+
+4) Reggaeton Demographics
+   - Donut chart or bar chart showing distribution by age ranges:
+     (15-20, 21-30, 31-40, 41-50)
+   - Subtitle: "Demographic distribution of users who listen to Reggaeton."
+
+5) Heavy Users — Bad Bunny
+   - Table showing top 5 users who listened to the most distinct Bad Bunny songs.
+   - Columns: Username, Email, Distinct Songs.
+
+General UI Requirements:
+- Use Apple Music style: red, white, black gradients.
+- Clean, minimalistic UI similar to Apple Analytics dashboards.
+- Include sidebar navigation with icons for each section.
+- Include top navigation with title: "Apple Music Analytics Dashboard".
+- Each section should appear as a card or module with titles and subtitles.
+- Make it responsive and visually appealing for presentation.
+
+Do NOT generate backend code. Only generate the front-end layout in clean JSX/HTML with Tailwind or modern UI styling.
+
